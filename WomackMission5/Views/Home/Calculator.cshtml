@@ -3,15 +3,20 @@
 *@
 @{
 }
-<h1 style="margin-bottom: 20px;">Let's see how much it is to get tutored by Payton</h1>
-<h3 style="margin-bottom: 20px;">How much is attaining the crazy high rank of gold 1 worth to you? Do you really want the glory?</h3>
-<form id="trainingForm">
-    <label for="hours">Number of Hours:</label>
-    <input type="number" id="hours" name="hours" min="1" required>
-    <label for="rate">Hourly Rate:</label>
-    <input type="text" id="rate" name="rate" value="$50" readonly>
-    <label for="total">Total Cost:</label>
-    <input type="text" id="total" name="total" readonly>
-    <button type="submit">Calculate Total</button>
-</form>
+<div style="text-align: center;">
+    <h1 style="margin-bottom: 20px;">Let's see how much it is to get tutored by Payton</h1>
+    <h3 style="margin-bottom: 20px;">How much is attaining the crazy high rank of gold 1 worth to you? Do you really want the glory?</h3>
+
+    <img src="~/img/valrank.jpg" style="display: block; width: 70%; margin: 0 auto 20px;" />
+
+    <form id="trainingForm" style="margin-bottom: 20px;">
+        <label for="hours">Number of Hours:</label>
+        <input type="number" id="hours" name="hours" min="1" required>
+        <label for="rate">Hourly Rate:</label>
+        <input type="text" id="rate" name="rate" value="$50" readonly>
+        <label for="total">Total Cost:</label>
+        <input type="text" id="total" name="total" readonly>
+        <button type="submit">Calculate Total</button>
+    </form>
+</div>
 <script src="~/js/site.js"></script>
